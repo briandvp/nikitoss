@@ -3,13 +3,10 @@
 namespace Database\Seeders;
 
 use App\Models\User;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    use WithoutModelEvents;
-
     /**
      * Seed the application's database.
      */
@@ -46,15 +43,15 @@ class DatabaseSeeder extends Seeder
             'image_path' => '',
             'is_active' => true,
         ]);
-        
+
         // Banner
         \App\Models\Banner::create([
-             'title' => 'Welcome to Nikitos',
-             'description' => 'Best Food in Town',
-             'image_path' => '',
-             'button_text' => 'Order Now',
-             'button_link' => '#products',
-             'active' => true,
+            'title' => 'Welcome to Nikitos',
+            'description' => 'Best Food in Town',
+            'image_path' => '',
+            'button_text' => 'Order Now',
+            'button_link' => '#products',
+            'active' => true,
         ]);
     }
 }

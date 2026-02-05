@@ -1,0 +1,261 @@
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 12 installs, 45 updates, 20 removals
+  - Removing fruitcake/php-cors (v1.4.0)
+  - Removing guzzlehttp/uri-template (v1.0.5)
+  - Removing laravel/breeze (v2.3.8)
+  - Removing laravel/pail (v1.2.4)
+  - Removing laravel/pint (v1.27.0)
+  - Removing laravel/prompts (v0.3.9)
+  - Removing laravel/sail (v1.52.0)
+  - Removing league/flysystem-local (3.30.2)
+  - Removing league/uri (7.7.0)
+  - Removing league/uri-interfaces (7.7.0)
+  - Removing nunomaduro/termwind (v2.3.3)
+  - Removing staabm/side-effects-detector (1.0.5)
+  - Removing symfony/clock (v7.4.0)
+  - Removing symfony/mailer (v7.4.3)
+  - Removing symfony/polyfill-php83 (v1.33.0)
+  - Removing symfony/polyfill-php84 (v1.33.0)
+  - Removing symfony/polyfill-php85 (v1.33.0)
+  - Removing symfony/polyfill-uuid (v1.33.0)
+  - Removing symfony/uid (v7.4.0)
+  - Removing symfony/yaml (v7.4.1)
+  - Locking asm89/stack-cors (v2.3.0)
+  - Locking doctrine/instantiator (2.0.0)
+  - Downgrading doctrine/lexer (3.0.1 => 1.2.3)
+  - Downgrading egulias/email-validator (4.0.4 => 2.1.25)
+  - Locking facade/flare-client-php (1.10.0)
+  - Locking facade/ignition (2.17.7)
+  - Locking facade/ignition-contracts (1.0.2)
+  - Locking fruitcake/laravel-cors (v2.2.0)
+  - Downgrading laravel/framework (v12.47.0 => v8.83.29)
+  - Locking laravel/sanctum (v2.15.1)
+  - Downgrading laravel/serializable-closure (v2.0.8 => v1.3.7)
+  - Downgrading league/flysystem (3.30.2 => 1.1.10)
+  - Downgrading monolog/monolog (3.10.0 => 2.11.0)
+  - Downgrading nesbot/carbon (3.11.0 => 2.73.0)
+  - Downgrading nunomaduro/collision (v8.8.3 => v5.11.0)
+  - Locking opis/closure (3.7.0)
+  - Downgrading phpunit/php-code-coverage (11.0.12 => 9.2.32)
+  - Downgrading phpunit/php-file-iterator (5.1.0 => 3.0.6)
+  - Downgrading phpunit/php-invoker (5.0.1 => 3.1.1)
+  - Downgrading phpunit/php-text-template (4.0.1 => 2.0.4)
+  - Downgrading phpunit/php-timer (7.0.1 => 5.0.3)
+  - Downgrading phpunit/phpunit (11.5.46 => 9.6.31)
+  - Downgrading psr/container (2.0.2 => 1.1.2)
+  - Downgrading psr/log (3.0.2 => 2.0.0)
+  - Downgrading psr/simple-cache (3.0.0 => 1.0.1)
+  - Downgrading sebastian/cli-parser (3.0.2 => 1.0.2)
+  - Downgrading sebastian/code-unit (3.0.3 => 1.0.8)
+  - Downgrading sebastian/code-unit-reverse-lookup (4.0.1 => 2.0.3)
+  - Downgrading sebastian/comparator (6.3.2 => 4.0.9)
+  - Downgrading sebastian/complexity (4.0.1 => 2.0.3)
+  - Downgrading sebastian/diff (6.0.2 => 4.0.6)
+  - Downgrading sebastian/environment (7.2.1 => 5.1.5)
+  - Downgrading sebastian/exporter (6.3.2 => 4.0.8)
+  - Downgrading sebastian/global-state (7.0.2 => 5.0.8)
+  - Downgrading sebastian/lines-of-code (3.0.1 => 1.0.4)
+  - Downgrading sebastian/object-enumerator (6.0.1 => 4.0.4)
+  - Downgrading sebastian/object-reflector (4.0.1 => 2.0.4)
+  - Downgrading sebastian/recursion-context (6.0.3 => 4.0.6)
+  - Locking sebastian/resource-operations (3.0.4)
+  - Downgrading sebastian/type (5.1.3 => 3.2.1)
+  - Downgrading sebastian/version (5.0.2 => 3.0.2)
+  - Locking swiftmailer/swiftmailer (v6.3.0)
+  - Downgrading symfony/console (v7.4.3 => v5.4.47)
+  - Downgrading symfony/error-handler (v7.4.0 => v5.4.46)
+  - Downgrading symfony/event-dispatcher (v7.4.0 => v6.4.25)
+  - Downgrading symfony/finder (v7.4.3 => v5.4.45)
+  - Downgrading symfony/http-foundation (v7.4.3 => v5.4.50)
+  - Downgrading symfony/http-kernel (v7.4.3 => v5.4.50)
+  - Downgrading symfony/mime (v7.4.0 => v5.4.45)
+  - Locking symfony/polyfill-iconv (v1.33.0)
+  - Locking symfony/polyfill-php73 (v1.33.0)
+  - Downgrading symfony/process (v7.4.3 => v5.4.47)
+  - Downgrading symfony/routing (v7.4.3 => v5.4.48)
+  - Downgrading symfony/string (v7.4.0 => v6.4.30)
+  - Downgrading symfony/translation (v7.4.3 => v6.4.31)
+  - Downgrading symfony/var-dumper (v7.4.3 => v5.4.48)
+  - Downgrading voku/portable-ascii (2.0.3 => 1.6.1)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 12 installs, 45 updates, 20 removals
+  - Downloading doctrine/lexer (1.2.3)
+  - Downloading symfony/polyfill-iconv (v1.33.0)
+  - Downloading symfony/var-dumper (v5.4.48)
+  - Downloading symfony/string (v6.4.30)
+  - Downloading psr/container (1.1.2)
+  - Downloading symfony/polyfill-php73 (v1.33.0)
+  - Downloading symfony/console (v5.4.47)
+  - Downloading psr/log (2.0.0)
+  - Downloading monolog/monolog (2.11.0)
+  - Downloading voku/portable-ascii (1.6.1)
+  - Downloading symfony/routing (v5.4.48)
+  - Downloading symfony/process (v5.4.47)
+  - Downloading symfony/mime (v5.4.45)
+  - Downloading symfony/http-foundation (v5.4.50)
+  - Downloading symfony/event-dispatcher (v6.4.25)
+  - Downloading symfony/error-handler (v5.4.46)
+  - Downloading symfony/http-kernel (v5.4.50)
+  - Downloading symfony/finder (v5.4.45)
+  - Downloading egulias/email-validator (2.1.25)
+  - Downloading swiftmailer/swiftmailer (v6.3.0)
+  - Downloading psr/simple-cache (1.0.1)
+  - Downloading opis/closure (3.7.0)
+  - Downloading symfony/translation (v6.4.31)
+  - Downloading nesbot/carbon (2.73.0)
+  - Downloading league/flysystem (1.1.10)
+  - Downloading laravel/serializable-closure (v1.3.7)
+  - Downloading laravel/framework (v8.83.29)
+  - Downloading facade/ignition-contracts (1.0.2)
+  - Downloading facade/flare-client-php (1.10.0)
+  - Downloading facade/ignition (2.17.7)
+  - Downloading asm89/stack-cors (v2.3.0)
+  - Downloading fruitcake/laravel-cors (v2.2.0)
+  - Downloading laravel/sanctum (v2.15.1)
+  - Downloading nunomaduro/collision (v5.11.0)
+  - Downloading sebastian/version (3.0.2)
+  - Downloading sebastian/type (3.2.1)
+  - Downloading sebastian/resource-operations (3.0.4)
+  - Downloading sebastian/recursion-context (4.0.6)
+  - Downloading sebastian/object-reflector (2.0.4)
+  - Downloading sebastian/object-enumerator (4.0.4)
+  - Downloading sebastian/global-state (5.0.8)
+  - Downloading sebastian/exporter (4.0.8)
+  - Downloading sebastian/environment (5.1.5)
+  - Downloading sebastian/diff (4.0.6)
+  - Downloading sebastian/comparator (4.0.9)
+  - Downloading sebastian/code-unit (1.0.8)
+  - Downloading sebastian/cli-parser (1.0.2)
+  - Downloading phpunit/php-timer (5.0.3)
+  - Downloading phpunit/php-text-template (2.0.4)
+  - Downloading phpunit/php-invoker (3.1.1)
+  - Downloading phpunit/php-file-iterator (3.0.6)
+  - Downloading sebastian/lines-of-code (1.0.4)
+  - Downloading sebastian/complexity (2.0.3)
+  - Downloading sebastian/code-unit-reverse-lookup (2.0.3)
+  - Downloading phpunit/php-code-coverage (9.2.32)
+  - Downloading doctrine/instantiator (2.0.0)
+  - Downloading phpunit/phpunit (9.6.31)
+  0/57 [>---------------------------]   0%
+  6/57 [==>-------------------------]  10%
+ 12/57 [=====>----------------------]  21%
+ 18/57 [========>-------------------]  31%
+ 23/57 [===========>----------------]  40%
+ 29/57 [==============>-------------]  50%
+ 35/57 [=================>----------]  61%
+ 44/57 [=====================>------]  77%
+ 47/57 [=======================>----]  82%
+ 56/57 [===========================>]  98%
+ 57/57 [============================] 100%
+  - Removing symfony/yaml (v7.4.1)
+  - Removing symfony/uid (v7.4.0)
+  - Removing symfony/polyfill-uuid (v1.33.0)
+  - Removing symfony/polyfill-php85 (v1.33.0)
+  - Removing symfony/polyfill-php84 (v1.33.0)
+  - Removing symfony/polyfill-php83 (v1.33.0)
+  - Removing symfony/mailer (v7.4.3)
+  - Removing symfony/clock (v7.4.0)
+  - Removing staabm/side-effects-detector (1.0.5)
+  - Removing nunomaduro/termwind (v2.3.3)
+  - Removing league/uri-interfaces (7.7.0)
+  - Removing league/uri (7.7.0)
+  - Removing league/flysystem-local (3.30.2)
+  - Removing laravel/sail (v1.52.0)
+  - Removing laravel/prompts (v0.3.9)
+  - Removing laravel/pint (v1.27.0)
+  - Removing laravel/pail (v1.2.4)
+  - Removing laravel/breeze (v2.3.8)
+  - Removing guzzlehttp/uri-template (v1.0.5)
+  - Removing fruitcake/php-cors (v1.4.0)
+  - Downgrading doctrine/lexer (3.0.1 => 1.2.3): Extracting archive
+  - Installing symfony/polyfill-iconv (v1.33.0): Extracting archive
+  - Downgrading symfony/var-dumper (v7.4.3 => v5.4.48): Extracting archive
+  - Downgrading symfony/string (v7.4.0 => v6.4.30): Extracting archive
+  - Downgrading psr/container (2.0.2 => 1.1.2): Extracting archive
+  - Installing symfony/polyfill-php73 (v1.33.0): Extracting archive
+  - Downgrading symfony/console (v7.4.3 => v5.4.47): Extracting archive
+  - Downgrading psr/log (3.0.2 => 2.0.0): Extracting archive
+  - Downgrading monolog/monolog (3.10.0 => 2.11.0): Extracting archive
+  - Downgrading voku/portable-ascii (2.0.3 => 1.6.1): Extracting archive
+  - Downgrading symfony/routing (v7.4.3 => v5.4.48): Extracting archive
+  - Downgrading symfony/process (v7.4.3 => v5.4.47): Extracting archive
+  - Downgrading symfony/mime (v7.4.0 => v5.4.45): Extracting archive
+  - Downgrading symfony/http-foundation (v7.4.3 => v5.4.50): Extracting archive
+  - Downgrading symfony/event-dispatcher (v7.4.0 => v6.4.25): Extracting archive
+  - Downgrading symfony/error-handler (v7.4.0 => v5.4.46): Extracting archive
+  - Downgrading symfony/http-kernel (v7.4.3 => v5.4.50): Extracting archive
+  - Downgrading symfony/finder (v7.4.3 => v5.4.45): Extracting archive
+  - Downgrading egulias/email-validator (4.0.4 => 2.1.25): Extracting archive
+  - Installing swiftmailer/swiftmailer (v6.3.0): Extracting archive
+  - Downgrading psr/simple-cache (3.0.0 => 1.0.1): Extracting archive
+  - Installing opis/closure (3.7.0): Extracting archive
+  - Downgrading symfony/translation (v7.4.3 => v6.4.31): Extracting archive
+  - Downgrading nesbot/carbon (3.11.0 => 2.73.0): Extracting archive
+  - Downgrading league/flysystem (3.30.2 => 1.1.10): Extracting archive
+  - Downgrading laravel/serializable-closure (v2.0.8 => v1.3.7): Extracting archive
+  - Downgrading laravel/framework (v12.47.0 => v8.83.29): Extracting archive
+  - Installing facade/ignition-contracts (1.0.2): Extracting archive
+  - Installing facade/flare-client-php (1.10.0): Extracting archive
+  - Installing facade/ignition (2.17.7): Extracting archive
+  - Installing asm89/stack-cors (v2.3.0): Extracting archive
+  - Installing fruitcake/laravel-cors (v2.2.0): Extracting archive
+  - Installing laravel/sanctum (v2.15.1): Extracting archive
+  - Downgrading nunomaduro/collision (v8.8.3 => v5.11.0): Extracting archive
+  - Downgrading sebastian/version (5.0.2 => 3.0.2): Extracting archive
+  - Downgrading sebastian/type (5.1.3 => 3.2.1): Extracting archive
+  - Installing sebastian/resource-operations (3.0.4): Extracting archive
+  - Downgrading sebastian/recursion-context (6.0.3 => 4.0.6): Extracting archive
+  - Downgrading sebastian/object-reflector (4.0.1 => 2.0.4): Extracting archive
+  - Downgrading sebastian/object-enumerator (6.0.1 => 4.0.4): Extracting archive
+  - Downgrading sebastian/global-state (7.0.2 => 5.0.8): Extracting archive
+  - Downgrading sebastian/exporter (6.3.2 => 4.0.8): Extracting archive
+  - Downgrading sebastian/environment (7.2.1 => 5.1.5): Extracting archive
+  - Downgrading sebastian/diff (6.0.2 => 4.0.6): Extracting archive
+  - Downgrading sebastian/comparator (6.3.2 => 4.0.9): Extracting archive
+  - Downgrading sebastian/code-unit (3.0.3 => 1.0.8): Extracting archive
+  - Downgrading sebastian/cli-parser (3.0.2 => 1.0.2): Extracting archive
+  - Downgrading phpunit/php-timer (7.0.1 => 5.0.3): Extracting archive
+  - Downgrading phpunit/php-text-template (4.0.1 => 2.0.4): Extracting archive
+  - Downgrading phpunit/php-invoker (5.0.1 => 3.1.1): Extracting archive
+  - Downgrading phpunit/php-file-iterator (5.1.0 => 3.0.6): Extracting archive
+  - Downgrading sebastian/lines-of-code (3.0.1 => 1.0.4): Extracting archive
+  - Downgrading sebastian/complexity (4.0.1 => 2.0.3): Extracting archive
+  - Downgrading sebastian/code-unit-reverse-lookup (4.0.1 => 2.0.3): Extracting archive
+  - Downgrading phpunit/php-code-coverage (11.0.12 => 9.2.32): Extracting archive
+  - Installing doctrine/instantiator (2.0.0): Extracting archive
+  - Downgrading phpunit/phpunit (11.5.46 => 9.6.31): Extracting archive
+  0/67 [>---------------------------]   0%
+  9/67 [===>------------------------]  13%
+ 12/67 [=====>----------------------]  17%
+ 19/67 [=======>--------------------]  28%
+ 21/67 [========>-------------------]  31%
+ 23/67 [=========>------------------]  34%
+ 31/67 [============>---------------]  46%
+ 32/67 [=============>--------------]  47%
+ 38/67 [===============>------------]  56%
+ 42/67 [=================>----------]  62%
+ 49/67 [====================>-------]  73%
+ 56/67 [=======================>----]  83%
+ 64/67 [==========================>-]  95%
+ 66/67 [===========================>]  98%
+ 67/67 [============================] 100%
+2 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Package fruitcake/laravel-cors is abandoned, you should avoid using it. No replacement was suggested.
+Package swiftmailer/swiftmailer is abandoned, you should avoid using it. Use symfony/mailer instead.
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Foundation\Application::configure() in C:\Users\Brian\Desktop\nikitos\bootstrap\app.php:7
+Stack trace:
+#0 C:\Users\Brian\Desktop\nikitos\artisan(14): require_once()
+
+#1 {main}
+  thrown in C:\Users\Brian\Desktop\nikitos\bootstrap\app.php on line 7
+Fatal error: Uncaught Error: Call to undefined method Illuminate\Foundation\Application::configure() in C:\Users\Brian\Desktop\nikitos\bootstrap\app.php:7
+Stack trace:
+#0 C:\Users\Brian\Desktop\nikitos\artisan(14): require_once()
+#1 {main}
+  thrown in C:\Users\Brian\Desktop\nikitos\bootstrap\app.php on line 7
+Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 255

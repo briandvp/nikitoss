@@ -3,17 +3,22 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
 // Public Routes
 Route::get('/', [\App\Http\Controllers\Public\HomeController::class, 'index'])->name('home');
+Route::get('/productos', [\App\Http\Controllers\Public\ProductController::class, 'index'])->name('products.index');
+Route::get('/recetas', [\App\Http\Controllers\Public\PageController::class, 'recipes'])->name('recipes');
+Route::get('/nosotros', [\App\Http\Controllers\Public\PageController::class, 'about'])->name('about');
+Route::get('/contacto', [\App\Http\Controllers\Public\PageController::class, 'contact'])->name('contact');
+Route::get('/donde-comprar', [\App\Http\Controllers\Public\PageController::class, 'whereToBuy'])->name('where-to-buy');
+
 Route::post('/contact', [\App\Http\Controllers\Public\ContactController::class, 'store'])->name('contact.store');
+
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('/dashboard', [\App\Http\Controllers\OrderController::class, 'create'])->name('dashboard');
+    Route::post('/orders', [\App\Http\Controllers\OrderController::class, 'store'])->name('orders.store');
+    Route::get('/dashboard/history', [\App\Http\Controllers\OrderController::class, 'index'])->name('orders.history');
+    Route::get('/dashboard/prices', [\App\Http\Controllers\PriceListController::class, 'index'])->name('prices.index');
+});
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -29,4 +34,4 @@ Route::middleware('auth')->group(function () {
     });
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
