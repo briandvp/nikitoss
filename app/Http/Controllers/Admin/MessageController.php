@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class MessageController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display a listing of the messages.
      */
     public function index()
     {
@@ -17,6 +17,10 @@ class MessageController extends Controller
         return view('admin.messages.index', compact('messages'));
     }
 
+    /**
+     * Display the specified message.
+     * Marks the message as read if it isn't already.
+     */
     public function show(Message $message)
     {
         if (!$message->read) {
@@ -25,6 +29,9 @@ class MessageController extends Controller
         return view('admin.messages.show', compact('message'));
     }
 
+    /**
+     * Remove the specified message from storage.
+     */
     public function destroy(Message $message)
     {
         $message->delete();
